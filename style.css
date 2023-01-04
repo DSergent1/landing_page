@@ -1,0 +1,58 @@
+h3 {
+font-size: 24px;
+}
+
+.top {
+color: white;
+
+}
+
+body {
+background-color: #1F2937;
+}
+
+button {
+color: white;
+background-color: #3882F6;}
+
+.hero {
+color: white;
+
+}
+
+.Mainhero{
+font-size: 48px;
+font-weight: 800;
+}
+
+.heroSec {
+font-size: 18px;
+color: #E5E7EB;
+}
+
+.infoheader{
+font-size: 36px;
+color: #1F2937;
+font-weight: 800;
+}
+
+.bottomhalf {
+background-color: white;
+}
+
+.quote {
+background-color: #E5E7EB;
+font-size: 36px;
+font: light italic;
+color: #1F2937;
+}
+
+.actionCall {
+background-color: #3882F6;
+margin-left: 80px;
+margin-right: 80px;
+}
+
+.copyright {
+color: white;
+}
