@@ -4,19 +4,28 @@ font-size: 24px;
 
 .top {
 color: white;
+display: flex;
 
 }
 
+.heroSec {
+font-size: 18px;
+color: #E5E7EB;
+justify-content: right;
+
+}
 body {
 background-color: #1F2937;
 }
 
 button {
 color: white;
-background-color: #3882F6;}
+background-color: #3882F6;
+}
 
 .hero {
 color: white;
+display: flex;
 
 }
 
@@ -25,25 +34,34 @@ font-size: 48px;
 font-weight: 800;
 }
 
-.heroSec {
-font-size: 18px;
+.leftHero {
+display: flex;
+flex-direction: column;
+}
+
+.heroSub {
 color: #E5E7EB;
+font-size: 18px;
 }
 
 .infoheader{
 font-size: 36px;
 color: #1F2937;
 font-weight: 800;
+text-align: center;
 }
 
 .bottomhalf {
 background-color: white;
 }
 
+.infoImages {
+display:flex;
+}
 .quote {
 background-color: #E5E7EB;
 font-size: 36px;
-font: light italic;
+font-style: italic;
 color: #1F2937;
 }
 
@@ -55,4 +73,5 @@ margin-right: 80px;
 
 .copyright {
 color: white;
+text-align: center;
 }
