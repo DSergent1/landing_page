@@ -55,9 +55,16 @@ text-align: center;
 background-color: white;
 }
 
-.infoImages {
+.whiteImage{
 display:flex;
+justify-content: center;
 }
+
+.imageSubtext{
+display:flex;
+justify-content: center;
+}
+
 .quote {
 background-color: #E5E7EB;
 font-size: 36px;
