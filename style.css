@@ -26,22 +26,26 @@ margin: -8px -54px 0px -8px;
 button {
 color: white;
 background-color: #3882F6;
+border-radius: 5px;
+border: #3882F6;
 }
 
 .hero {
 color: white;
 display: flex;
+margin: 80px 0px 80px 200px;
 
 }
 
 .Mainhero{
 font-size: 48px;
 font-weight: 800;
+margin-bottom: -15px;
+
+
 }
 
-.leftHero {
 
-}
 
 .heroSub {
 color: #E5E7EB;
@@ -53,6 +57,10 @@ font-size: 36px;
 color: #1F2937;
 font-weight: 800;
 text-align: center;
+}
+
+.rightHero {
+margin: 40px 300px 150px 0px;
 }
 
 .bottomhalf {
