@@ -8,14 +8,16 @@ display: flex;
 
 }
 
-.heroSec {
+.headerLink {
 font-size: 18px;
 color: #E5E7EB;
-justify-content: right;
+text-align: right;
 
 }
-body {
+
+.headerHero{
 background-color: #1F2937;
+margin: -8px -54px 0px -8px;
 }
 
 button {
@@ -53,6 +55,7 @@ text-align: center;
 
 .bottomhalf {
 background-color: white;
+margin: 0px -50px 50px -50px;
 }
 
 .whiteImage{
@@ -63,7 +66,7 @@ justify-content: center;
 .imageSubtext{
 display:flex;
 justify-content: center;
-margin: 0px 180px 0px 180px;
+margin: 0px 240px 0px 240px;
 }
 
 .whiteBox {
@@ -100,18 +103,42 @@ font-weight: 800;
 
 .actionCall {
 background-color: #3882F6;
-margin-left: 80px;
-margin-right: 80px;
+margin: 100px 240px 100px 240px;
 color: white;
+display:flex;
+padding: 8px 20px 10px 20px;
+
+}
+
+.signup{
+display: flex;
+flex-direction: column;
+margin-left: 80px;
+}
+
+#signuptitle {
+font-weight: 800;
+margin-bottom: -20px;
+font-size: 24px;
+}
+
+.signupPrompt {
+font-size: 18px;
 }
 
 #bottomButton {
 border: 2px solid white;
 border-radius: 5px;
+margin: 40px 0px 30px 220px;
+font-size: 14px;
+
 
 }
 
 .copyright {
 color: white;
 text-align: center;
+margin: 0px -8px 0px -8px;
+padding: 20px 20px 20px 20px;
+background-color: #1F2937;
 }
